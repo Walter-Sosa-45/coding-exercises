@@ -1,0 +1,43 @@
+1_ Fusionar cadenas alternativamente
+
+Se te dan dos cuerdasword1 yword2 . Fusione las cadenas agregando letras en orden alterno, comenzando conword1 . Si una cadena es mas larga que la otra, agregue las letras adicionales al final de la cadena fusionada.
+
+Devuelve la cadena fusionada.
+
+
+Ejemplo 1:
+
+Entrada: palabra1 = "abc", palabra2 = "pqr"
+
+Salida: "apbqcr"
+
+Explicación: La cadena fusionada se fusionará de la siguiente manera:
+palabra1: abc
+palabra2: pqr
+fusionado: apbqcr
+Ejemplo 2:
+
+Entrada: palabra1 = "ab", palabra2 = "pqrs"
+
+Salida: "apbqrs"
+
+Explicación: Observe que como la palabra 2 es más larga, se agrega "rs" al final.
+palabra1: ab 
+palabra2: pqrs
+fusionado: apbqrs
+Ejemplo 3:
+
+Entrada: palabra1 = "abcd", palabra2 = "pq"
+
+Salida: "apbqcd"
+
+Explicación: Observe que como la palabra 1 es más larga, se agrega "cd" al final.
+palabra1: abcd
+palabra2: pq 
+fusionado: apbqcd
+ 
+
+Restricciones:
+
+1 <= word1.length, word2.length <= 100
+word1 yword2 constan de letras minúsculas inglesas
