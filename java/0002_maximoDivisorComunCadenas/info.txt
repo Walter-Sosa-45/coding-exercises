@@ -1,0 +1,36 @@
+Para dos cadenas "s" y "t" , decimos "t"mdivide "s" si y sólo sis = t + t + t + ... + t + t (es decir, se concatena consigo mismo una o más veces).
+
+Dadas dos cadenasstr1 ystr2 , devuelve la cadena más grandex tal quex divide ambasstr1 ystr2 .
+
+ 
+
+Ejemplo 1:
+
+Entrada: str1 = "ABCABC", str2 = "ABC"
+
+Salida: "ABC"
+
+Ejemplo 2:
+
+Entrada: str1 = "ABABAB", str2 = "ABAB"
+
+Salida: "AB"
+
+Ejemplo 3:
+
+Entrada: str1 = "LEET", str2 = "CÓDIGO"
+
+Salida: ""
+
+Ejemplo 4:
+
+Entrada: str1 = "AAAAAB", str2 = "AAA"
+
+Salida: ""
+
+ 
+
+Restricciones:
+
+1 <= str1.length, str2.length <= 1000
+str1 str2y constan de letras mayúsculas en inglés.
